@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .row_b{
+   width: 95%;
+    margin: 15px;
+    height: 250px;
+}
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .ge{
+    width: 33.33%;
+    height: 180px;
+    margin: 15px;
+  }
+  .column{
+      width:95%;
+      margin:15px;
+  }
+  
+  
+ 
+
+  @media only screen and (min-width: 200px) {
+        /* For   really smalls screens */
+    .row_b{
+        width: 80%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 80%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width:80%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+}
+  @media only screen and (min-width: 298px) {
+        /* For   smalls screens */
+    .row_b{
+        width: 85.5%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 85.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width:37.2%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+}
+
+ 
+  @media only screen and (min-width: 498px) {
+        /* For cellphones: */
+    .row_b{
+        width: 88.5%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 88.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width:40.2%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+   
+  }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .row_b{
+        width: 93.5%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 27%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width: 19%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .row_b{
+        width: 93.7%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 29.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width: 21.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+  }
+
+  @media only screen and (min-width: 760px) and (max-width: 874px) {
+
+    /* For desktop: */
+    .row_b{
+        width: 90.7%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 27.4%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width: 19.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+  }
+
+  @media only screen and (min-width: 860px) and (max-width: 900px) {
+
+    /* For desktop: */
+    .row_b{
+        width: 90.7%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 27.4%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width: 19.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    /* For huge desktop: */
+    .row_b{
+        width: 90.8%;
+         margin: 15px;
+         height: 250px;
+     }
+    .ge{
+        width: 28.5%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+      .gy{
+        width: 20.8%;
+        height: 180px;
+        margin: 15px;
+        display: inline-block;
+      }
+  }
+
+ 
+  
+  
+ 
+
+ 
+
+
+ 
+
